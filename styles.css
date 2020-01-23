@@ -1,0 +1,58 @@
+body{
+   background-color: grey;
+}
+h1{
+    color:blue;
+}
+
+header{
+	background-image: url('../projects/image/lap.jpg');
+}
+
+nav {
+
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font-size: larger;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+ }
+
+ 
+ 
+ nav>ul>li>a {
+ padding: 18px;
+ text-transform: uppercase;
+ text-decoration: none;
+ display: block;
+ color: white;
+ font-weight: bolder;
+ font-style: italic;
+ font-family: 'Times New Roman', Times, serif;
+ }
+ nav>ul>li>a:hover {
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+ background: lightsteelblue;
+ color: grey;
+ border-radius: 10px;
+ }
+ ul>li{
+   /*text-align: right;*/
+   display: inline-block;
+ }
+ nav>ul{
+   text-align: center;
+ }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
