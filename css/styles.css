@@ -12,19 +12,9 @@ body{
 }
 
 .bg-image {
-  /* The image used */
- 
-
-  /* Add the blur effect */
+/* Add the blur effect */
   filter: blur(8px);
-  -webkit-filter: blur(2px);
-
-  
-
-  /* Center and scale the image nicely */
-  
-  
- 
+  -webkit-filter: blur(2px); 
 }
 
 #showcase{
@@ -34,6 +24,14 @@ body{
   color: blueviolet;
 }
 
+.about{
+  background-color: black;
+  color: whitesmoke;
+}
+
+#popup{
+  line-height: 2em;
+}
 #popup:hover{
   transition: 3s;
   z-index: 2;
@@ -96,7 +94,11 @@ h1{
 #box3{
   background-color: lightslategray;
   opacity: 0.9;
+  text-align: center;
 }
+
+
+
 
 
 #section2{
@@ -255,15 +257,69 @@ footer>p{
 
 
 #border{
-  border: black 1px solid;
+  
   background-color: lightsteelblue;
   opacity: 0.8;
 }
 
-#border1{
-  border: black 1px solid;
+
+
+.backdrop{
+  background-image: url('../image/bat.jpg');
+  text-align: center;
+
 }
 
-#border3{
-  border: black 4px solid;
+.backdrop>p{
+  font-size: 30px;
+}
+
+#coming>h1{
+  margin-top: 20%;
+}
+.backdrop>.bg-image {
+  /* Add the blur effect */
+    filter: blur(20px);
+    -webkit-filter: blur(2px); 
+  
+  }
+
+
+
+@media(max-width: 768px){
+
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header nav, header nav li,{
+    float:none;
+    display: inline-block;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+    height: auto;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
 }
