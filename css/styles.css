@@ -21,7 +21,7 @@ body{
   min-height:400px;
   
   text-align:center;
-  color: blueviolet;
+  color: coral;
 }
 
 .about{
@@ -164,6 +164,8 @@ nav {
    opacity: 0.9;
  }
 
+ 
+
  .container{
   width:80%;
   margin:auto;
@@ -298,10 +300,13 @@ footer>p{
     width:100%;
   }
 
-  header nav, header nav li,{
-    float:none;
+  header nav, header nav li{
+    padding-right: 4px;
+    padding-left: 4px;
     display: inline-block;
-    width:100%;
+    float: left;
+    background-color: black;
+    opacity: 0.8;
   }
 
   header{
@@ -321,5 +326,11 @@ footer>p{
   #newsletter form input[type="email"], .quote input, .quote textarea{
     width:100%;
     margin-bottom:5px;
+  }
+  footer{
+    text-align: center;
+  }
+  #video{
+    width:500px;
   }
 }
