@@ -303,7 +303,7 @@ footer>p{
   header nav, header nav li{
     padding-right: 4px;
     padding-left: 4px;
-    display: inline-block;
+    
     float: left;
     background-color: black;
     opacity: 0.8;
@@ -330,7 +330,5 @@ footer>p{
   footer{
     text-align: center;
   }
-  #video{
-    width:500px;
-  }
+  
 }
